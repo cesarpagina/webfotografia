@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navegación */
+.navbar {
+    transition: background 0.3s;
+}
+
+.navbar.fixed-top {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero / Presentación */
+#hero {
+    height: 100vh;
+    background: url('../assets/img/hero.jpg') center/cover no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Sección Sobre mí */
+#about img {
+    border-radius: 8px;
+}
+
+/* Sección de información */
+.info-card {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.info-card.bg-primary {
+    color: white;
+}
+
+/* Contacto */
+#contact .form-control {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 10px 0;
+}

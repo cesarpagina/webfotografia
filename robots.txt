@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://cesarvine.netlify.app/sitemap.xml
